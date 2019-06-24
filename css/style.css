@@ -78,3 +78,18 @@ main blockquote:before {
 main blockquote p {
   display: inline;
 }
+
+#left-btn, #right-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#right-btn {
+    right: 0;
+  }
